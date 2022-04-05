@@ -9,14 +9,18 @@
     <title>Login</title>
 </head>
 
-<body class="bg-gradient-to-r from-violet-500 to-fuchsia-500 w-screen h-screen sans-pro">
-    <div class="lg:flex lg:flex-row h-full px-10 py-5">
-        <div class="basis-1/2 lg:flex flex-col justify-center items-center bg-slate-100 rounded-l-lg">
+<body class="lg:bg-gradient-to-r lg:from-violet-500 lg:to-fuchsia-500 w-screen h-screen sans-pro">
+    <div class="lg:flex lg:flex-row h-full lg:px-10 lg:py-5">
+        <div class="lg:basis-1/2 flex flex-col justify-center items-center h-full bg-slate-100 lg:rounded-l-lg">
             <div>
+                <div class="lg:flex lg:justify-center lg:items-center">
+                    <!-- Logo goes here -->
+                    <img src="" alt="" class="h-14 w-14 rounded-full">
+                </div>
                 <div class="mt-7">
                     <span class="font-bold text-2xl">Welcome back</span>
                     <div>
-                        <span class="text-slate-500 text-sm font-light">Welcome back! Please enter your details.</span>
+                        <span class="text-slate-500 text-sm">Welcome back! Please enter your details.</span>
                     </div>
                 </div>
                 <form action="#" method="POST">
@@ -50,7 +54,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="pt-8 pb-10 flex justify-center">
+                    <div class="pt-8 flex justify-center">
                         <button
                             class="bg-slate-900 rounded-lg h-11 w-60 grow group hover:bg-gradient-to-r hover:from-violet-500 hover:to-fuchsia-500"
                             type="submit">
@@ -58,9 +62,12 @@
                         </button>
                     </div>
                 </form>
+                <div class="pt-5">
+                    <span class="text-slate-500 text-sm">Don't have an account? Contact an administrator</span>
+                </div>
             </div>
         </div>
-        <div class="basis-1/2 bg-cover rounded-r-lg" style="background-image: url('./img/office.jpg')">
+        <div class="hidden lg:block lg:basis-1/2 bg-cover lg:rounded-r-lg" style="background-image: url('./img/office.jpg')">
         </div>
     </div>
 </body>
