@@ -1,0 +1,1 @@
+A collection of authentication templates made with Tailwind CSS
