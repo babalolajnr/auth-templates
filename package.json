@@ -4,8 +4,8 @@
   "description": "A collection of authentication templates",
   "main": "index.js",
   "scripts": {
-    "tailwind-build": "postcss src/css/tailwind.css -o ../static/css/styles.css",
-    "tailwind-dev": "postcss src/css/tailwind.css -o ../static/css/styles.css --watch"
+    "tailwind-build": "npx tailwindcss -i ./src/css/tailwind.css -o ./dist/css/styles.css",
+    "tailwind-dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./dist/css/styles.css --watch"
   },
   "repository": {
     "type": "git",
